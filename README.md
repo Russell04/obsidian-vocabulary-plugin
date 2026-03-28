@@ -20,17 +20,6 @@ An Obsidian plugin for learning vocabulary through flashcards with LLM-powered p
 3. Copy the downloaded files into that folder
 4. Restart Obsidian and enable the plugin in Settings → Community plugins
 
-### From Source
-
-```bash
-git clone https://github.com/Russell04/obsidian-vocabulary-plugin.git
-cd obsidian-vocabulary-plugin
-npm install
-npm run build
-```
-
-Copy `main.js`, `manifest.json`, and `styles.css` to your Obsidian plugins folder.
-
 ## Usage
 
 ### Vocabulary File Format
@@ -90,19 +79,6 @@ Enter your API key and customize the system prompt if needed.
 - `Search Vocabulary` - Open search modal
 - `Add New Word` - Open add word modal
 - `Reload Vocabulary Files` - Reload all vocabulary files
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Build for production
-npm run build
-
-# Build for development (with watch)
-npm run dev
-```
 
 ## License
 
